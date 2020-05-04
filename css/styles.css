@@ -1,0 +1,185 @@
+
+
+/* variables */
+
+html,body{
+  padding:0px;
+  margin:0px;
+  font-size: 12px;
+  font-family: Helvetica;
+}
+
+
+nav{
+  display: flex;
+  background-color: #7ACC2D;
+  padding: 10px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li{
+  padding-left: 20px;
+  list-style: none;
+
+}
+
+nav li a{
+  color: black;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: white;
+}
+
+/* ------------------------ Main section */
+
+.main_section{
+  padding: 15%;
+  text-align: center;
+}
+
+.products{
+  background-image: url("../images/curve.png");
+  max-height: 50px;
+  background-size: cover;
+  background-position: center top;
+  padding:20%;
+  display: flex;
+}
+
+.product{
+  padding: 10px;
+  margin-top: -240px;
+}
+.product .content{
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 0 1px #c1bcbc;
+}
+.img_content{
+  text-align: center;
+}
+
+.main_button{
+  background-color: #7ACC2D;
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  color: white;
+  border:0;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.main_button:hover{
+  background-color: #5e9e22;
+}
+
+/* Aqui comienza la seccion de suavecitos */
+.container {
+
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    padding: 6%;
+    
+    
+}
+.sub_container {
+    height: 70px;
+    width: 154px;
+    
+}
+
+.sub_container h3 {
+    width: 154px;
+}
+.sub_container img {
+    width: 138px;
+    height: 113px;
+    
+}
+
+/* Aqui comienza la seccion de menciones */
+.container2 {
+    margin: 0 auto;
+    height: 280px;
+}
+.container2 h2{
+    text-align: center;
+    height: 50px;
+}
+.sub-container2 {
+    display: flex;
+    /* justify-content: space-around; */
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.subsub-c {
+    width: 239px;
+    height: 200px;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 2px;
+}
+.subsub-c img {
+    width: 239px;
+    height: 105px;
+}
+.subsub-c p {
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: center;
+}
+.subsub-c h3 {
+    padding-left: 18px;
+}
+
+@media (max-width: 680px) {
+    .main_section {
+        padding: 4%;
+    }
+    .products {
+        display: block;
+        height: auto;
+        max-height: 100%;
+    }
+    .product {
+        margin-top: auto;
+    }
+    .container {
+        display: block;
+        height: auto;
+        padding: 15%;
+        
+    }
+    .sub_container {
+        height: auto;
+        text-align: center;
+        width: auto;
+    }
+    .sub-container2 {
+        display: block;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+        
+    }
+    .subsub-c {
+        margin: 0;
+        margin-top: 2%;
+        width: auto;
+        padding: 15%;
+    }
+    
+    
+
+}
